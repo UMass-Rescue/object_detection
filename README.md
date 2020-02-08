@@ -5,7 +5,7 @@ Moved Object Detection API to a seperated pip installable library - https://gith
 Use the following command to install the library - 
 
 ```
-pip install tf_bject_detection_util
+pip install tf_object_detection_util
 ```
 
 ### Datasets used - 
