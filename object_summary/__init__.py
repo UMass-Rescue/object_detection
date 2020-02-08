@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 from functools import reduce
-from .tf_object_detection_api.inference_api import TFInference
+from tf_object_detection_util.inference_api import TFInference
 import cv2
 import json
 import numpy as np
