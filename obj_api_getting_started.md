@@ -36,6 +36,8 @@ If you don't have git installed -
 sudo apt install git
 ```
 
+After installing git -
+
 ```
 git clone https://github.com/tensorflow/models.git
 git checkout r1.12.0
