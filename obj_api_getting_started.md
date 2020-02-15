@@ -79,6 +79,7 @@ python object_detection/builders/model_builder_test.py
 
 Run the jupyter notebook "object_detection_tutorial" in the "models/research/object_detection" directory
 
+To make the virtual environment available on the Jupyter Notebook - https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook
 
 ## Training a custom object detector
 
