@@ -81,6 +81,12 @@ Run the jupyter notebook "object_detection_tutorial" in the "models/research/obj
 
 To make the virtual environment available on the Jupyter Notebook - https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook
 
+```
+conda install nb_conda
+conda install ipykernel
+python -m ipykernel install --user --name tf_obj_api
+```
+
 ## Training a custom object detector
 
 ### 1. Obtain/Create the object detection dataset with the bounding box labels. This should be in the VOC PASCAL format (images + xml annotation in VOC PASCAL for each image).
