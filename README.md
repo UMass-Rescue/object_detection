@@ -2,10 +2,13 @@
 
 Moved Object Detection API to a seperate pip installable library - https://github.com/prasannals/tf_object_detection_util
 
-Use the following command to install the library - 
+Moved Object Summary to a seperate pip installable library - https://github.com/UMass-Rescue/object_summary
+
+Use the following command to install the required libraries - 
 
 ```
 pip install tf_object_detection_util
+pip install object_summary
 ```
 
 ### Datasets used - 
