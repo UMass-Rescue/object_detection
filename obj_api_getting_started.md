@@ -40,6 +40,7 @@ After installing git -
 
 ```
 git clone https://github.com/tensorflow/models.git
+cd models
 git checkout r1.12.0
 git pull
 ```
@@ -72,7 +73,7 @@ Note: This command needs to run from every new terminal you start. If you wish t
 You can test that you have correctly installed the Tensorflow Object Detection API by running the following command:
 
 ```
-# From tensorflow/models/research/
+# From models/research/
 python object_detection/builders/model_builder_test.py
 ```
 
