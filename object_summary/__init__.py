@@ -60,7 +60,7 @@ def objects_in_categories(path_df, inf, out_path, visualize=False):
         res, res_img = inf.predict(img_path, visualize=visualize)
         if visualize:
             cv2.imwrite(str(out_path / f'{i}.jpg'), res_img)
-        res['file'] = img_path
+#         res['file'] = img_path
         res['category'] = category
         all_res.append(res)
 
