@@ -12,6 +12,12 @@ https://www.anaconda.com/distribution/
 conda create -n tf_obj_api python=3.6 anaconda
 ```
 
+Switch to newly created environment
+
+```
+conda activate tf_obj_api
+```
+
 ### 3. Install Tensorflow
 
 ```
@@ -40,6 +46,7 @@ After installing git -
 
 ```
 git clone https://github.com/tensorflow/models.git
+cd models
 git checkout r1.12.0
 git pull
 ```
@@ -72,12 +79,19 @@ Note: This command needs to run from every new terminal you start. If you wish t
 You can test that you have correctly installed the Tensorflow Object Detection API by running the following command:
 
 ```
-# From tensorflow/models/research/
+# From models/research/
 python object_detection/builders/model_builder_test.py
 ```
 
 Run the jupyter notebook "object_detection_tutorial" in the "models/research/object_detection" directory
 
+To make the virtual environment available on the Jupyter Notebook - https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook
+
+```
+conda install nb_conda
+conda install ipykernel
+python -m ipykernel install --user --name tf_obj_api
+```
 
 ## Training a custom object detector
 
