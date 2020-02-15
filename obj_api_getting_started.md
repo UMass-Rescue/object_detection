@@ -12,6 +12,12 @@ https://www.anaconda.com/distribution/
 conda create -n tf_obj_api python=3.6 anaconda
 ```
 
+Switch to newly created environment
+
+```
+conda activate tf_obj_api
+```
+
 ### 3. Install Tensorflow
 
 ```
