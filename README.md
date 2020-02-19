@@ -44,5 +44,9 @@ sys.path.append('/home/jupyter/models/research/slim/') # replace this path with 
 * <strong>Classification Datasets</strong>
   * Cola Bottle Identification - https://www.kaggle.com/deadskull7/cola-bottle-identification
   * Messy vs Clean room - https://www.kaggle.com/cdawn1/messy-vs-clean-room
+ 
+* Flats to Rent at Budapest - https://www.kaggle.com/gaborvecsei/flats-to-rent-at-budapest
+* Boat Types Classification - https://www.kaggle.com/clorichel/boat-types-recognition
+* House Prices and Images - https://www.kaggle.com/ted8080/house-prices-and-images-socal
 
 * Images from unsample.net
