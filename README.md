@@ -9,6 +9,7 @@ Getting started -
 1. Install required libraries
 
 ```
+pip install opencv-python
 pip install tf_object_detection_util
 pip install object_summary
 ```
